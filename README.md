@@ -1,3 +1,3 @@
 # Terence Kim Portfolio
 
-terekim.github.io/website
+https://terekim.github.io/website
