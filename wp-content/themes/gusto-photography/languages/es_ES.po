@@ -1,0 +1,216 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: gusto-photography\n"
+"POT-Creation-Date: 2018-10-29 13:44+0300\n"
+"PO-Revision-Date: 2018-10-29 13:44+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:18
+#, fuzzy
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "¡Vaya! No se puede encontrar esa página."
+
+#: 404.php:22
+#, fuzzy
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+"Parece que no se encontró nada en este lugar. Tal vez pruebe uno de los "
+"siguientes enlaces o una búsqueda?"
+
+#: 404.php:31
+#, fuzzy
+msgid "Most Used Categories"
+msgstr "Categorías más usadas"
+
+#: 404.php:47
+#, fuzzy, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Trate de buscar en los archivos mensuales. %1$s"
+
+#: comments.php:35
+#, fuzzy, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "Un pensamiento en &ldquo;%1$s&rdquo;"
+
+#: comments.php:41
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:66
+#, fuzzy
+msgid "Comments are closed."
+msgstr "Los comentarios están cerrados."
+
+#: footer.php:27
+#, fuzzy, php-format
+msgid " %1$s by %2$s."
+msgstr "%1$s por %2$s."
+
+#: functions.php:49
+#, fuzzy
+msgid "Primary"
+msgstr "Primario"
+
+#: functions.php:111
+#, fuzzy
+msgid "Sidebar"
+msgstr "Barra lateral"
+
+#: functions.php:113 functions.php:122 functions.php:131 functions.php:140
+#, fuzzy
+msgid "Add widgets here."
+msgstr "Añade widgets aquí."
+
+#: functions.php:120
+#, fuzzy
+msgid "Footer 1"
+msgstr "Pie de página 1"
+
+#: functions.php:129
+#, fuzzy
+msgid "Footer 2"
+msgstr "Pie de página 2"
+
+#: functions.php:138
+#, fuzzy
+msgid "Footer 3"
+msgstr "Pie de página 3"
+
+#: header.php:25
+#, fuzzy
+msgid "Skip to content"
+msgstr "Saltar al contenido"
+
+#: inc/menu-walker.php:100
+#, fuzzy
+msgid "Add a menu"
+msgstr "Añadir un menú"
+
+#: inc/template-tags.php:29
+#, fuzzy, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Publicado el %s"
+
+#: inc/template-tags.php:45
+#, fuzzy, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr "Filtro %s"
+
+#: inc/template-tags.php:62
+#, fuzzy
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:65
+#, fuzzy, php-format
+msgid "Posted in %1$s"
+msgstr "Publicado en %1$s"
+
+#: inc/template-tags.php:69
+#, fuzzy
+msgctxt "list item separator"
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:72
+#, fuzzy, php-format
+msgid "Tagged %1$s"
+msgstr "Etiquetado %1$s"
+
+#: inc/template-tags.php:82
+#, fuzzy, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Deja un comentario<span class=\"screen-reader-text\"> en %s</span>"
+
+#: inc/template-tags.php:99 template-parts/content-page.php:37
+#, fuzzy, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Editar <span class=\"screen-reader-text\">%s</span>"
+
+#: search.php:22
+#, fuzzy, php-format
+msgid "Search Results for: %s"
+msgstr "Resultados de búsqueda para: %s"
+
+#: template-parts/content-none.php:14
+#, fuzzy
+msgid "Nothing Found"
+msgstr "Nada Encontrado"
+
+#: template-parts/content-none.php:24
+#, fuzzy, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Listo para publicar su primer post? <a href=\"%1$s\"> Comienza aquí </a>."
+
+#: template-parts/content-none.php:37
+#, fuzzy
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Lo sentimos, pero nada coincide con sus términos de búsqueda. Por favor, "
+"inténtelo de nuevo con algunas palabras clave diferentes."
+
+#: template-parts/content-none.php:44
+#, fuzzy
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Parece que no podemos encontrar lo que estamos buscando. Tal vez la búsqueda "
+"puede ayudar."
+
+#: template-parts/content-page.php:24 template-parts/content.php:50
+#, fuzzy
+msgid "Pages:"
+msgstr "Páginas:"
+
+#: template-parts/content.php:39
+#, fuzzy, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Continuar leyendo<span class=\"screen-reader-text\"> \"%s\"</span>"
+
+#. Theme Name of the plugin/theme
+#, fuzzy
+msgid "gusto-photography"
+msgstr "Por gusto-photography."
+
+#. Description of the plugin/theme
+#, fuzzy
+msgid ""
+"gusto-photography is a simple WordPress blogging theme focusing on images, use it for a "
+"travel, food or photo bloging."
+msgstr ""
+"gusto-photography es un tema simple de blogs de WordPress que se enfoca en imágenes, lo "
+"usa para un blog de viajes, comida o fotos."
+
+#. Author of the plugin/theme
+#, fuzzy
+msgid "Afrothemes"
+msgstr "Afrotemas"

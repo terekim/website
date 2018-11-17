@@ -1,0 +1,83 @@
+/* Visual Composer - Quema Labs Carousel	*/
+/*------------------------------------------*/
+.olivo_lite_shortcodes_carousel{
+	margin-bottom: 10px;
+		.image-slide{
+			width: 100%;
+				img{
+					width: 100%;
+				}
+		}
+}
+.olivo_lite_shortcodes_carousel_thumbnails{
+	margin-bottom: 30px;
+	
+	.image-slide{
+		width: 20%;
+		position: relative;
+		margin-right: 10px;
+
+			img{
+				width: 100%;
+			}
+
+			&::before{
+				content: "";
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				background-color: rgba(0,0,0,0.6);
+				opacity: 1;
+				z-index: 2;
+				.transition( opacity 200ms );
+			}
+
+			&:hover, &.is-selected{
+
+				&::before{
+					opacity: 0;
+				}
+			}
+	}
+
+}
+
+
+/* FAQs										*/
+/*------------------------------------------*/
+.question{
+	.font-size(22);
+	color: @gray-dark;
+	margin-bottom: 0.75em;
+	position: relative;
+	padding-left: 2em;
+	font-family: @headings-font-family;
+	color: @heroColor;
+	&::before{
+		position: absolute;
+		list-style: none;
+		display: inline-block;
+	    font-family: FontAwesome;
+	    font-style: normal;
+	    font-weight: normal;
+	    text-decoration: inherit;
+	    content: "";
+	    font-size: 24px;
+	    left: 0;
+	    top: 50%;
+	    .translate(0;-50%);
+	    width: 24px;
+	    height: 24px;
+	    line-height: 24px;
+	    color: #33a3e4;
+	}
+}
+.answer{
+	margin-bottom: 2.8125em;
+	padding-bottom: 2.8125em;
+	position: relative;
+	margin-left: 2.5em;
+	border-bottom: 2px solid @gray-lighter2;
+}

@@ -1,0 +1,42 @@
+* 1.0.7 - 28/05/2018
+====================
+- Fixed: Tags in portfolio items
+
+
+* 1.0.6 - 24/05/2018
+====================
+- Added: Tags in portfolio items
+
+
+* 1.0.5 - 23/03/2018
+====================
+- Added: Telegram and Email icons to social menu
+
+
+* 1.0.4 - 26/01/2018
+====================
+- Improved: Color for contact button and portfolio categories
+
+
+* 1.0.3 - 23/11/2017
+====================
+- Fixed: Escaped URLs
+- Fixed: Display and hide logo on customizer
+- Fixed: Issue with Logo on customizer
+
+
+* 1.0.2 - 20/11/2017
+====================
+- Added: Copyright of JS plugins and theme
+- Fixed: Prefix functions
+- Improved: Admin styles only loads on necessary pages
+
+
+* 1.0.1 - 30/08/2017
+====================
+- Fixed: JS error on load more items
+
+
+* 1.0.0 - 28/08/2017
+====================
+- Released

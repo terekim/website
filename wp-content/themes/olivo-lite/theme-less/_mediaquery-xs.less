@@ -1,0 +1,556 @@
+@media (max-width: @screen-xs-max) {
+	
+	/* Site Background
+	-------------------------------------------------- */
+	.olivo-site-wrap{
+		margin: 13px 10px;
+
+			.olivo-sidebar-open &{
+				.translate(-340px;0);
+			}
+
+			.olivo-sidenav-out &{
+				width: 94.5%;
+				padding-right: 0;
+				padding-left: 0;
+			}
+	}
+
+
+	.pace{
+		display: none;
+	}
+
+	/*
+	Header
+	==========================================
+	*/
+
+	#header{
+		position: relative;
+		padding: 10px 0;
+		margin-bottom: 1.11111111111111em;
+
+			.olivo-sidenav &{
+				padding: 0 20px;
+				margin: 20px 0;
+			}
+			.olivo-sidenav-out &{
+				width: 94%;
+				margin-bottom: 10px;
+				margin-top: 30px;
+			}
+	}
+	.logo_container{
+		position: relative;
+		display: block;
+		float: none;
+		margin-right: 0;
+		margin: 10px 0;
+
+			.site-title{
+				padding-right: 60px;
+			}
+	}
+
+	.slogan{
+		.font-size(26);
+		line-height: 32px;
+		text-align: center;
+		margin: 15px 0;
+	}
+
+
+
+	#olivo-sidebar-btn{
+		top: 12px;
+	}
+
+	#ql_nav_btn{
+		top: 5px;
+		right: 60px;
+		padding: 4px 9px;
+
+			.olivo-with-out-sidebar &{
+				right: 10px;
+			}
+			
+			.olivo-sidenav-out &{
+				right: 0;
+			}
+			.olivo-sidenav &{
+				right: 40px;
+			}
+			i{
+				.font-size(24);
+			}
+
+
+	}
+
+
+	#jqueryslidemenu{
+		margin-bottom: 0;
+		margin-top: 0;
+		float: none;
+		text-align: left;
+		border-top: none;
+		display: block;
+	}
+	#jqueryslidemenu #nav{
+		border-top: none;
+	}
+	#jqueryslidemenu ul.nav > li{
+		display: block;
+		//width: 49%;
+	}
+
+
+	#ql_nav_collapse{
+		padding: 0;
+		margin: 0 !important;
+		height: 0;
+		padding-top: 10px;
+		border-top: none;
+		.box-shadow(none);
+		overflow: hidden;
+
+			&.in{
+				height: auto;
+			}
+	}
+	.dropdown-submenu > .dropdown-menu{
+		left: 0;
+		position: relative;
+		padding-left: 20px;
+	}
+	.col-right{
+		text-align: center;
+	}
+	#header .nav_social{
+		line-height: 5px;
+	}
+	.nav_social li{
+		float: none;
+		display: inline-block;
+	}
+
+
+
+	/*1st sub level menu*/
+	#ql-navigation .navbar-nav{
+		margin: 0;
+	}
+	#jqueryslidemenu ul.nav > li > ul{
+		position: relative;
+		top: 0;
+		padding: 0;
+		margin-bottom: 15px;
+		.box-shadow(none);
+		width: 100%;
+	}
+	.dropdown:hover .dropdown-menu {
+	    display: none;
+	 }
+	 .dropdown.open:hover .dropdown-menu {
+	    display: block;
+	    width: 100%;
+	 }
+	#jqueryslidemenu ul.nav > li > ul > li.menu-item-has-children{
+		display: block;
+		width: 100%;
+		padding: 5px 20px;
+	}
+
+	#jqueryslidemenu ul.nav > li > ul > li.has-image{
+		display: none;
+	}
+
+
+	.ql_cart-btn{
+		display: block;
+		margin-top: 15px;
+		margin-bottom: 20px;
+		text-align: left;
+		
+			.olivo-sidenav &, .olivo-sidenav-out &{
+				position: relative;
+			}
+	}
+
+	.olivo-sidenav .header-widget-area, .olivo-sidenav-out .header-widget-area{
+		display: none;
+	}
+	
+
+	/*
+	Main
+	==========================================
+	*/
+	.olivo-sidenav #content{
+		margin-top: 30px;
+	}
+
+	.olivo-post-wrapper{
+		margin: 0;
+	}
+
+
+	/*
+	Portfolio
+	==========================================
+	*/
+	.portfolio-container{
+		
+		&.olivo-4-columns, &.olivo-3-columns, &.olivo-2-columns, &.olivo-1-columns, &{
+
+				.portfolio-item{
+					width: 46.9%;
+					padding-bottom: 46.9%;
+					margin: 0.8% 1.5%;
+
+						.portfolio-item-title{
+							.font-size(14);
+						}
+
+						&.landscape-big{
+			    			width: 46.9%;
+							padding-bottom: 46.9%;
+								
+								.portfolio-item-title{
+									.font-size(14);
+								}
+			    		}
+				}
+		}
+	}
+
+
+	/*
+	Portfolio Thirds
+	============================= */
+	.portfolio-thirds{
+
+		&.olivo-4-columns, &.olivo-3-columns, &.olivo-2-columns, &.olivo-1-columns, &{
+
+				.portfolio-item{
+					width: 46.9%;
+					margin: 1.5%;
+		    		padding-bottom: 0;
+
+				}/* portfolio-item */
+		}
+
+	}
+
+
+	/*
+	Portfolio Instagram & Dribbble
+	============================= */
+	.portfolio-instagram, .portfolio-dribbble{
+
+		&.olivo-4-columns, &.olivo-3-columns, &.olivo-2-columns, &.olivo-1-columns, &{
+
+				.portfolio-item{
+					width: 46.9%;
+					margin: 1.5%;
+		    		padding-bottom: 0;
+
+		    			.portfolio-item-title{
+		    				line-height: 26px;
+		    			}
+
+				}/* portfolio-item */
+		}
+
+	}
+
+	/*
+	Filter
+	============================= */
+	.ql_filter{
+		margin-right: 0;
+
+			ul{
+				text-align: left;
+
+					li{
+						display: inline-block;
+						margin: 0 10px 5px 0;
+						.font-size(14);
+
+					}
+			}
+
+			.ql_filter_count{
+
+					.current{
+						top: 5px;
+						left: 5px;
+						.font-size(16);
+					}
+
+					.total{
+						bottom: 5px;
+						right: 5px;
+						.font-size(16);
+
+					}
+
+
+			}
+	}
+	.no-touch .portfolio .ql_filter ul li{
+		visibility: visible;
+		opacity: 1;
+		.translate(0;0);
+	}
+
+
+	/*
+	Load More Button
+	============================= */
+	.portfolio-load-wrapper{
+		margin: 1.25em 0 2.5em 0;
+	}
+
+
+
+	/*
+	Single Portfolio
+	============================= */
+	.single-portfolio-container{
+
+			.portfolio-item-portrait{
+				width: 70%;
+			}
+
+	}
+
+	.single-portfolio.portfolio_layout_vertical #content{
+		padding-right: 20px;
+	}
+
+	
+	.post-navigation {
+	    width: 100%;
+		margin: 15px 0;
+			.nav-previous, .nav-next{
+				display: block;
+				width: 100%;
+				margin: 2% 0;
+			}
+	}
+
+	/*
+	Content
+	--------------------------------
+	*/
+	.metadata{
+		display: block;
+	}
+	.metadata ul li{
+		float: left;
+	}
+
+	/*Post										*/
+	/*------------------------------------------*/
+	.blog #content.col-md-12 .post, .blog #content.col-md-8 .post{
+		width: 100%;
+		display: block;
+		margin: 0 0 5%;
+	}
+
+	.pagination{
+		margin-top: 0;
+		margin-bottom: 15%;
+	}
+
+
+	/*Search									*/
+	/*------------------------------------------*/
+	.search #content article{
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+
+	/*
+	Shop
+	============================= */
+	.ql_woocommerce_categories .ql_product_search{
+		display: block;
+	}
+	.ql_woocommerce_categories ul li{
+		.font-size(14);
+			a{
+				padding: 0.35714285714286em 0.9375em;
+			}
+	}
+
+	/*
+	Single
+	============================= */
+	.single .post .entry-footer{
+		text-align: left;
+	}
+	.single .post .entry-footer .metadata ul li{
+		display: inline-block;
+		margin-right: 15px;
+	}
+	.single .post .entry-footer .metadata ul li.meta_date{
+		display: block;
+	}
+
+	/*
+	Shop Single
+	============================= */
+	.woocommerce div.product .woocommerce-tabs{
+		width: 100%;
+	}
+	.woocommerce #main .products.related .product, .woocommerce-page .products.related .product{
+		width: 100% !important;
+	}
+
+	/*
+	Sidebar
+	==========================================
+	*/
+	.olivo-sidenav-out .sidebar-wrap{
+		margin-top: 120px;
+	}
+	#sidebar{
+		padding-left: 20px;
+	}
+
+
+	.olivo-preloader {
+		top: 10px;
+		left: 10px;
+		right: 10px;
+	}
+
+
+	/*
+	Comments
+	==========================================
+	*/
+	/*Comments Form---------------------------------------------------*/
+	#respond .input-wrap{
+		width:100%;
+	}
+
+	#content.col-md-12 #comments{
+		width: 100%;
+	}
+
+	#comments .comment-meta{
+		width: 100%;
+		display: block;
+		margin-bottom: 20px;
+	}
+	#comments .comment-content{
+		width: 100%;
+		display: block;
+	}
+
+	.comment-list{
+			.children{
+				padding-left: 10px;
+			}
+	}
+
+
+
+	
+
+	/*
+	Footer
+	==========================================
+	*/
+	.sub-footer p{
+		margin-bottom: 20px;
+		float: none;
+		line-height: 1.6em;
+		text-align: center;
+	}
+	.nav_social{
+		float: none;
+			li{
+				margin: 3px;
+			}
+	}
+
+
+	.section-title{
+		margin-bottom: 4rem;
+	}
+
+	#footer-menu{
+		margin-left: 0;
+		padding-left: 0;
+		border: none;
+		display: block;
+		text-align: center;
+	}
+
+	/*----------- Work Button Widget -----------------*/
+	.widget_glaciar_work_button{
+
+		display: block;
+
+			.widget_glaciar_work_title{
+				.font-size(30) !important;
+				width: 100%;
+				margin-right: 0;
+			}
+			.ql_primary_btn{
+				margin-top: 7%;
+			}
+	}
+
+
+	
+
+	/*
+	Cart
+	==========================================
+	*/
+	.woocommerce-cart .cart{
+		padding: 10px;
+			.cart_item{
+				width: 47%;
+				padding: 6px;
+				margin: 1%;
+
+					a.remove{
+						top: 3px;
+						left: 3px;
+					}
+			}
+	}
+	.woocommerce-cart #content form{
+		width: 100%;
+		display: block;
+	}
+	.woocommerce-cart #content .cart-collaterals{
+		width: 100%;
+		display: block;
+		margin-left: 0;
+	}
+	.woocommerce-cart .actions .coupon{
+		width: 100%;
+		margin-bottom: 10px;
+		display: block;
+	}
+	.woocommerce-cart .actions > .button{
+		float: none;
+	}
+
+
+	.olivo-demo-background{
+		display: none;
+	}
+
+}

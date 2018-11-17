@@ -1,0 +1,1730 @@
+/*
+Theme Name: Olivo Lite
+Theme URI: https://www.quemalabs.com/theme/olivo-lite/
+Description: Portfolio theme
+Version: 1.0.0
+Author: Quema Labs
+Author URI: https://www.quemalabs.com/
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Tags: portfolio, photography, two-columns, custom-background, threaded-comments, custom-menu, featured-images, sticky-post, translation-ready
+Text Domain: olivo-lite
+*/
+/*
+----------------------------------------------------------------
+TABLE OF CONTENTS
+----------------------------------------------------------------
+1. Header
+3. Portfolio
+4. Blog & Pages
+5. Sidebar
+6. Footer
+7. Comments
+
+9. Pace
+10. Animations
+11. Shortcodes
+12. Contact Page
+13. Gallery
+14. WordPress Default
+15. External Plugins
+16. Global Styles
+17. Responsive Styles
+LESS Variables and Mixins
+----------------------------------------------------------------
+*/
+/*
+==========================================
+1. Header
+==========================================
+*/
+/*
+==========================================
+Header
+==========================================
+*/
+
+.olivo-sidenav .logo_container .site-title,
+.olivo-sidenav-out .logo_container .site-title {
+	padding-left: 45px;
+	padding-right: 0;
+}
+
+.logo_container .logo_desc_wrap {
+	margin-right: 15px;
+	margin-left: auto;
+}
+
+/*-----------------------------*/
+/*
+==========================================
+Navigation Menu
+==========================================
+*/
+
+#ql_nav_btn {
+	left: 10px;
+	right: auto;
+}
+
+#header #ql_nav_collapse {
+	text-align: left;
+}
+
+.olivo-sidenav #header #ql_nav_collapse,
+.olivo-sidenav-out #header #ql_nav_collapse {
+	text-align: right;
+}
+
+#jqueryslidemenu {
+	text-align: left;
+}
+
+.olivo-sidenav #jqueryslidemenu,
+.olivo-sidenav-out #jqueryslidemenu {
+	text-align: right;
+}
+
+/*Top level list items*/
+#jqueryslidemenu ul.nav > li {
+	margin-right: 0;
+	margin-left: auto;
+}
+
+/*Top level menu link items style*/
+
+/* Main items hover ----------*/
+
+/* Active item ----------*/
+
+/*1st sub level menu*/
+
+#jqueryslidemenu ul.nav > li > ul > li .dropdown-menu {
+	right: 100%;
+	left: auto;
+}
+
+/* Multi level dropdown -------*/
+
+/*!
+ * Bootstrap-submenu v2.0.4 (https://vsn4ik.github.io/bootstrap-submenu/)
+ * Copyright 2014-2016 Vasily A. (https://github.com/vsn4ik)
+ * Licensed under the MIT license
+ */
+
+@media (min-width: 768px) {
+
+/* Active item ----------*/
+
+/*1st sub level menu*/
+
+#jqueryslidemenu ul.nav > li > ul > li .dropdown-menu {
+	right: 100%;
+	left: auto;
+}
+
+/* Multi level dropdown -------*/
+
+/*!
+ * Bootstrap-submenu v2.0.4 (https://vsn4ik.github.io/bootstrap-submenu/)
+ * Copyright 2014-2016 Vasily A. (https://github.com/vsn4ik)
+ * Licensed under the MIT license
+ */
+
+}
+
+@media (max-width: 767px) {
+
+/*Top level list items*/
+#jqueryslidemenu ul.nav > li {
+	margin-right: 0;
+	margin-left: auto;
+}
+
+/*Top level menu link items style*/
+
+/* Main items hover ----------*/
+
+/* Active item ----------*/
+
+/*1st sub level menu*/
+
+#jqueryslidemenu ul.nav > li > ul > li .dropdown-menu {
+	right: 100%;
+	left: auto;
+}
+
+/* Multi level dropdown -------*/
+
+/*!
+ * Bootstrap-submenu v2.0.4 (https://vsn4ik.github.io/bootstrap-submenu/)
+ * Copyright 2014-2016 Vasily A. (https://github.com/vsn4ik)
+ * Licensed under the MIT license
+ */
+
+@media (min-width: 768px) {
+
+/* Active item ----------*/
+
+/*1st sub level menu*/
+
+#jqueryslidemenu ul.nav > li > ul > li .dropdown-menu {
+	right: 100%;
+	left: auto;
+}
+
+/* Multi level dropdown -------*/
+
+/*!
+ * Bootstrap-submenu v2.0.4 (https://vsn4ik.github.io/bootstrap-submenu/)
+ * Copyright 2014-2016 Vasily A. (https://github.com/vsn4ik)
+ * Licensed under the MIT license
+ */
+
+}
+
+}
+
+/* Mobile Nav icon (Hamburguer) -----------*/
+
+/* Dropdown arrow ------------*/
+
+/*
+Search Button
+---------------------------------------*/
+
+.menu_wrap .search-form .search-field {
+	float: left;
+}
+
+.menu_wrap .search-form .search-field:focus {
+	padding: 6px 12px 6px 40px;
+}
+
+.menu_wrap .search-form .search-submit {
+	left: 0;
+	right: auto;
+}
+
+.menu_wrap .search-form:hover .search-field {
+	padding: 6px 12px 6px 40px;
+}
+
+/*
+==========================================
+3. Portfolio
+==========================================
+*/
+
+.portfolio-container .portfolio-item a {
+	right: 0;
+	left: 0;
+}
+
+.ql_animations .portfolio-container .portfolio-item .portfolio-item-hover-preload {
+	right: 0;
+	left: 0;
+}
+
+.portfolio-container .portfolio-item .portfolio-item-hover {
+	right: 0;
+	left: 0;
+}
+
+.portfolio-container .portfolio-item .portfolio-item-hover .portfolio-item-content {
+	right: 25px;
+	left: 25px;
+	text-align: left;
+}
+
+.portfolio-container .portfolio-item .portfolio-item-hover .portfolio-item-title {
+	text-align: left;
+}
+
+.portfolio-container .portfolio-item .portfolio-item-categories {
+	padding-right: 0;
+	text-align: left;
+	padding-left: 0;
+}
+
+.portfolio-container .portfolio-item .portfolio-item-categories li {
+	margin-right: 10px;
+	margin-left: auto;
+}
+
+.portfolio-container.olivo-1-columns .portfolio-item .portfolio-item-content {
+	right: 45px;
+	left: 45px;
+}
+
+.ql_animations .portfolio-container.portfolio-thirds .portfolio-item::before {
+	right: -10px;
+	left: -10px;
+}
+
+/*
+Filter
+============================= */
+.ql_filter {
+	margin-left: 0;
+	margin-right: auto;
+}
+
+.ql_filter ul {
+	padding-right: 0;
+	margin-left: 0;
+	text-align: left;
+	padding-left: 0;
+	margin-right: auto;
+}
+
+.ql_filter ul li a::before {
+	right: 0;
+	left: 50%;
+}
+
+.ql_filter ul li a::after {
+	left: 0;
+	right: 50%;
+}
+
+.ql_filter ul li a:hover::before {
+	left: 100%;
+	right: auto;
+}
+
+.ql_filter ul li a:hover::after {
+	right: 100%;
+	left: auto;
+}
+
+/*
+Portfolio Thirds
+============================= */
+
+/*
+Load More Button
+============================= */
+
+.portfolio-load-wrapper .portfolio-load-more .olivo-spinner {
+	right: 50%;
+	left: auto;
+}
+
+/*
+Single Portfolio
+============================= */
+
+.single-portfolio-container .portfolio-item .portfolio-item-title {
+	right: 25px;
+	left: auto;
+}
+
+.single-portfolio-container .portfolio-item-portrait {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.single-portfolio.portfolio_layout_vertical #content {
+	padding-left: 60px;
+	padding-right: 0;
+}
+
+.olivo-double-bounce1,
+.olivo-double-bounce2 {
+	right: 0;
+	left: auto;
+}
+
+/*
+==========================================
+4. Blog & Pages
+==========================================
+*/
+/* Home										*/
+/*------------------------------------------*/
+
+/*Page Content								*/
+/*------------------------------------------*/
+
+/*Post Content								*/
+/*------------------------------------------*/
+
+/*Post Title 								*/
+/*------------------------------------------*/
+
+.post-header .post-title {
+	padding-left: 20px;
+	padding-right: 0;
+}
+
+.post-title a {
+	text-align: right;
+}
+
+/*Page Title 								*/
+/*------------------------------------------*/
+.page-title {
+	padding-left: 20px;
+	padding-right: 0;
+}
+
+.page-header::before,
+.post-header::before {
+	left: 0;
+	right: 0;
+}
+
+/*Post Wrapper								*/
+/*------------------------------------------*/
+
+/*Post										*/
+/*------------------------------------------*/
+
+.olivo-blog-layout-2.blog #content .post .post-image,
+.olivo-blog-layout-2.archive #content .post .post-image,
+.olivo-blog-layout-2.search #content .post .post-image {
+	margin-left: 5%;
+	margin-right: auto;
+}
+
+/*Search									*/
+/*------------------------------------------*/
+
+.search #content article:nth-child(even) {
+	margin-right: 0;
+	margin-left: auto;
+}
+
+.search #content article:nth-child(odd) {
+	margin-left: 0;
+	margin-right: auto;
+}
+
+/*Image Post								*/
+/*------------------------------------------*/
+
+.post-image a::before {
+	right: 0;
+	left: 0;
+}
+
+.post-image a::after {
+	right: 50%;
+	left: auto;
+}
+
+/*Metadata 									*/
+/*------------------------------------------*/
+
+.metadata ul li {
+	margin: 0.35714285714286em 0 0.35714285714286em 1.78571428571429em;
+}
+
+.metadata ul li i {
+	margin-left: 0.35714285714286em;
+	margin-right: auto;
+}
+
+.metadata ul li.meta_comments {
+	float: left;
+	margin-left: 0;
+	text-align: left;
+	margin-right: auto;
+}
+
+/*Pagination															*/
+/*----------------------------------------------------------------------*/
+
+.pagination a,
+.pagination span {
+	float: right;
+	margin-left: 5px;
+	margin-right: auto;
+}
+
+/*Single															*/
+/*----------------------------------------------------------------------*/
+
+/*
+==========================================
+5. Sidebar
+==========================================
+*/
+#olivo-sidebar-btn {
+	left: 0;
+	right: auto;
+}
+
+#olivo-sidebar-btn i:nth-child(2) {
+	right: 50%;
+	left: auto;
+}
+
+.sidebar-wrap {
+	left: 0;
+	right: auto;
+}
+
+/*
+Widgets
+--------------------------------
+*/
+
+#sidebar.col-md-pull-9 .widget {
+	margin-left: 10px;
+	margin-right: 0;
+}
+
+#sidebar .widget ul,
+#sidebar .widget ol {
+	margin-right: 0px;
+	padding-right: 0;
+	padding-left: 0;
+	margin-left: auto;
+}
+
+#sidebar .widget ul li ul {
+	margin-right: 15px;
+	margin-left: auto;
+}
+
+#sidebar .hasChildren i {
+	left: 5px;
+	right: auto;
+}
+
+#sidebar select {
+	margin-right: 5px;
+	margin-left: auto;
+}
+
+/*
+Recent Comments Widget
+--------------------------------
+*/
+
+#sidebar .widget_recent_comments ul li {
+	padding-right: 35px;
+	padding-left: 0;
+}
+
+#sidebar .widget_recent_comments ul li::before {
+	right: 0;
+	left: auto;
+}
+
+#sidebar .widget_recent_comments ul li i {
+	right: 0;
+	left: auto;
+}
+
+/*
+Recent Posts Widget
+--------------------------------
+*/
+
+/*
+Tag Widget
+--------------------------------
+*/
+
+#sidebar .widget_tag ul li {
+	margin: 0 0 0.90909090909091em 0.90909090909091em;
+	float: right;
+}
+
+/*
+Search Widget
+--------------------------------
+*/
+
+.widget_search #s {
+	padding-left: 30px;
+	padding-right: 0;
+}
+
+.widget_search #searchsubmit {
+	left: 15px;
+	right: auto;
+}
+
+.widget_search i {
+	left: 12px;
+	right: auto;
+}
+
+/*
+RSS Widget
+--------------------------------
+*/
+
+/*
+==========================================
+6. Footer
+==========================================
+*/
+/*
+Footer
+------------------------
+*/
+
+#footer select {
+	margin-right: 5px;
+	margin-left: auto;
+}
+
+#footer ul,
+footer ol {
+	margin-right: 0;
+	padding-right: 0;
+	padding-left: 0;
+	margin-left: auto;
+}
+
+#footer ul li,
+footer ol li {
+	margin-left: 2%;
+	margin-right: auto;
+}
+
+#footer ul li > a:after,
+footer ol li > a:after {
+	right: 0;
+	left: auto;
+}
+
+#footer .widget ul li ul {
+	margin-right: 30px;
+	margin-left: auto;
+}
+
+#footer .hasChildren i {
+	left: 5px;
+	right: auto;
+}
+
+/*-----------Decoration SVG on Footer-----------------*/
+.glaciar-footer-svg {
+	left: 40px;
+	right: auto;
+}
+
+/*-----------Contact Info Widget-----------------*/
+
+#footer .widget_contact_info li i {
+	margin-left: 10px;
+	margin-right: auto;
+}
+
+/*----------- Portfolio Widget -----------------*/
+.widget_glaciar_portfolio .widget-portfolio-wrap .widget-portfolio-item {
+	margin-left: 2%;
+	margin-right: auto;
+}
+
+.widget_glaciar_portfolio .widget-portfolio-wrap .widget-portfolio-item a:after {
+	right: 0;
+	left: 0;
+}
+
+.widget_glaciar_portfolio .widget-portfolio-wrap .widget-portfolio-item a:before {
+	right: 50%;
+	left: auto;
+}
+
+/*-----------Recent & Popular Posts Widget-----------------*/
+
+.widget_recent_posts ul li .recent-post-img,
+.widget_popular_posts ul li .recent-post-img {
+	float: right;
+	margin-left: 10px;
+	margin-right: auto;
+}
+
+.widget_recent_posts ul li .recent-post-img span,
+.widget_popular_posts ul li .recent-post-img span {
+	right: 1px;
+	left: auto;
+}
+
+/*-----------Social Widget-----------------*/
+footer .social a {
+	margin: 7px 0 7px 7px;
+}
+
+/*----------- Work Button Widget -----------------*/
+
+.widget_glaciar_work_button .widget_glaciar_work_title {
+	margin-left: 5%;
+	margin-right: auto;
+}
+
+/*
+==========================================
+Subfooter
+==========================================
+*/
+
+.sub-footer p {
+	float: right;
+}
+
+/*
+==========================================
+Social Nav
+==========================================
+*/
+.nav_social {
+	float: left;
+}
+
+.widget #menu-social {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.nav_social li,
+.widget #menu-social li {
+	margin-right: 10px;
+	margin-left: auto;
+}
+
+.header-widget-area .widget #menu-social li {
+	margin-left: 10px;
+	margin-right: 0;
+}
+
+/*
+==========================================
+Footer Menu
+==========================================
+*/
+#footer-menu {
+	border-right: 1px solid rgba(0, 0, 0, 0.06);
+	margin-right: 20px;
+	padding-right: 8px;
+	padding-left: 0;
+	margin-left: auto;
+	border-left: none;
+}
+
+#footer-menu ul {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+/*
+==========================================
+7. Comments
+==========================================
+*/
+/*===========================================================================*/
+/*Comments																	 */
+/*===========================================================================*/
+#content.col-md-12 #comments {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.comment-list {
+	margin-right: 0;
+	margin-left: auto;
+}
+
+.comment-list .children {
+	padding-right: 50px;
+	padding-left: 0;
+}
+
+#comments .comment-meta {
+	margin-left: 5%;
+	margin-right: auto;
+}
+
+#comments .comment-meta .comment-author .avatar {
+	margin-left: 15px;
+	margin-right: auto;
+}
+
+#comments .comment-list .comment .comment-body .reply {
+	text-align: left;
+}
+
+/*===========================================================================*/
+/*Comments	Form															 */
+/*===========================================================================*/
+
+#respond .input-wrap {
+	margin: 0px 0 10px 15px;
+}
+
+#respond input {
+	padding-right: 3.4375em;
+	padding-left: 0;
+}
+
+#respond .controls-wrap i {
+	right: 1.42857142857143em;
+	left: auto;
+}
+
+/*
+==========================================
+9. Pace (Loading animation)
+==========================================
+*/
+
+.pace .pace-progress {
+	left: 100%;
+	right: auto;
+}
+
+.pace .pace-progress-inner {
+	left: 0px;
+	right: auto;
+}
+
+.pace .pace-activity {
+	left: 35px;
+	border-right-color: #FF3A91;
+	right: auto;
+}
+
+/*
+==========================================
+10. Animations
+==========================================
+*/
+/*
+Portfolio Filter
+============================= */
+
+/*
+Page Title
+============================= */
+
+/*
+Entry Content
+============================= */
+
+/*
+Pagination
+============================= */
+
+/*
+Single Metadata
+============================= */
+
+/*
+Page Title
+============================= */
+.ql_animations .page-header::before,
+.ql_animations .post-header::before {
+	-webkit-transition: left 1000ms cubic-bezier(0.075, 0.82, 0.165, 1);
+	-o-transition: left 1000ms cubic-bezier(0.075, 0.82, 0.165, 1);
+	transition: left 1000ms cubic-bezier(0.075, 0.82, 0.165, 1);
+	left: 100%;
+	right: auto;
+}
+
+.pace-done.ql_animations .page-header::before,
+.pace-done.ql_animations .post-header::before {
+	left: 0;
+	right: auto;
+}
+
+/*
+Portfolio
+============================= */
+
+/*
+Portfolio Multiple Slider
+============================= */
+
+/*
+Shop
+============================= */
+
+/*
+Product Single
+============================= */
+
+/*
+Cart
+============================= */
+
+/*
+Contact Page
+============================= */
+
+/*
+==========================================
+11. Shortcodes
+==========================================
+*/
+/* Visual Composer - Quema Labs Carousel	*/
+/*------------------------------------------*/
+
+.olivo_lite_shortcodes_carousel_thumbnails .image-slide {
+	margin-left: 10px;
+	margin-right: auto;
+}
+
+.olivo_lite_shortcodes_carousel_thumbnails .image-slide::before {
+	right: 0;
+	left: 0;
+}
+
+/* FAQs										*/
+/*------------------------------------------*/
+.question {
+	padding-right: 2em;
+	padding-left: 0;
+}
+
+.question::before {
+	right: 0;
+	left: auto;
+}
+
+.answer {
+	margin-right: 2.5em;
+	margin-left: auto;
+}
+
+/*
+==========================================
+12. Contact Page
+==========================================
+*/
+
+.glaciar-contact-form input[type='text'],
+.glaciar-contact-form input[type='email'],
+.glaciar-contact-form textarea {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+/*
+==========================================
+13. Gallery
+==========================================
+*/
+/* Gallery Masonry													*/
+/*----------------------------------------------------------------------*/
+
+/* Gallery Thirds														*/
+/*----------------------------------------------------------------------*/
+
+/*
+==========================================
+14. WordPress Default
+==========================================
+*/
+/* =WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+	margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+	float: left;
+	margin: 5px 20px 20px 0;
+}
+
+.alignright {
+	float: right;
+	margin: 5px 0 20px 20px;
+}
+
+a img.alignleft {
+	float: left;
+	margin: 5px 20px 20px 0;
+}
+
+a img.alignnone {
+	margin: 5px 0 20px 20px;
+}
+
+a img.alignright {
+	float: right;
+	margin: 5px 0 20px 20px;
+}
+
+a img.aligncenter {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.wp-caption.alignnone {
+	margin: 5px 0 20px 20px;
+}
+
+.wp-caption.alignright {
+	margin: 5px 0 20px 20px;
+}
+
+.wp-caption.alignleft {
+	margin: 5px 20px 20px 0;
+}
+
+.post.sticky .post-content::after {
+	right: 0;
+	left: 0;
+}
+
+/*------------------------------------------------------------
+ Defaul Widgets
+-------------------------------------------------------------- */
+/* Archive List Widget
+-------------------------------------- */
+
+/* Calendar Widget
+-------------------------------------- */
+
+#wp-calendar caption {
+	text-align: left;
+}
+
+#wp-calendar tfoot #next {
+	text-align: left;
+}
+
+/* Categories Widget
+-------------------------------------- */
+
+/* Recent Comments Widget
+-------------------------------------- */
+
+#footer .widget_recent_comments ul li {
+	margin-left: 0;
+	margin-right: auto;
+}
+
+/* Recent Entries Widget
+-------------------------------------- */
+
+/* RSS Widget
+-------------------------------------- */
+
+/* Search Widget
+-------------------------------------- */
+
+.widget_search #s {
+	padding-left: 32px;
+	padding-right: 0;
+}
+
+.widget_search #searchsubmit {
+	left: 15px;
+	right: auto;
+}
+
+.widget_search i {
+	left: 15px;
+	right: auto;
+}
+
+/* Tag Cloud Widget
+-------------------------------------- */
+
+/* Nav Menu Widget
+-------------------------------------- */
+
+.widget_nav_menu .menu-navigation-container .sub-menu {
+	padding-right: 20px;
+	padding-left: 0;
+}
+
+/* Search Form
+-------------------------------------- */
+
+.search-form .search-field {
+	padding-left: 50px;
+	padding-right: 0;
+}
+
+.widget_search .search-form .search-submit {
+	left: 0;
+	right: auto;
+}
+
+.search-form label::before {
+	left: 20px;
+	right: auto;
+}
+
+.widget_search i {
+	left: 12px;
+	right: auto;
+}
+
+/* Post Navigation
+-------------------------------------- */
+
+.post-navigation .nav-next::before,
+.post-navigation .nav-previous::before {
+	right: 0;
+	left: 0;
+}
+
+.post-navigation .nav-next {
+	margin-right: 2%;
+	margin-left: auto;
+}
+
+.post-navigation .nav-previous {
+	margin-left: 2%;
+	margin-right: auto;
+}
+
+.post-navigation .nav-previous a {
+	padding-right: 100px;
+	padding-left: 0;
+}
+
+.post-navigation .nav-next a {
+	padding-left: 100px;
+	text-align: left;
+	padding-right: 0;
+}
+
+.post-navigation .nav-previous a::before {
+	right: 0;
+	left: auto;
+}
+
+.post-navigation .nav-next a::before {
+	left: 0;
+	right: auto;
+}
+
+/* Nav Menu
+-------------------------------------- */
+
+/* Post Password Form
+-------------------------------------- */
+
+/*------------------------------------------------------------
+404
+-------------------------------------------------------------- */
+
+.widgets-404 .widget {
+	text-align: right;
+}
+
+.widgets-404 .widget ul {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+/*
+==========================================
+15. External Plugins
+==========================================
+*/
+/*
+// Contact Form 7
+// ------------------
+*/
+
+.wpcf7 input[type="checkbox"],
+.wpcf7 input[type="radio"] {
+	margin-left: 5px;
+	margin-right: auto;
+}
+
+/*
+// Visual Composer
+// ------------------
+*/
+
+.aio-icon-box.top-icon .align-icon,
+.aio-icon-box.top-icon .aio-icon-header,
+.aio-icon-box.top-icon .aio-icon-description {
+	text-align: right!important;
+}
+
+@media (min-width: 768px) and (max-width: 1269px) {
+
+}
+
+/*
+// Revolution Slider
+// ------------------
+*/
+
+@media (max-width: 767px) {
+
+}
+
+/*
+// Easy MailChimp Forms
+// ------------------
+*/
+
+/*
+// WP Instagram Widget
+// ------------------
+*/
+
+@media (min-width: 768px) and (max-width: 1269px) {
+
+}
+
+@media (min-width: 1510px) {
+
+}
+
+/*
+// Jetpack Contact Form
+// ------------------
+*/
+
+@media (max-width: 767px) {
+
+}
+
+/*
+==========================================
+16. Global Styles
+==========================================
+*/
+
+/* Site Background
+-------------------------------------------------- */
+.olivo-site-wrap {
+	-webkit-transform-origin: right;
+	-moz-transform-origin: right;
+	-ms-transform-origin: right;
+	transform-origin: right;
+}
+
+.icons-bck {
+	right: 50%;
+	left: auto;
+}
+
+/* Section Title
+-------------------------------------------------- */
+
+.section-title::after {
+	right: 50%;
+	left: auto;
+}
+
+.section-title::before {
+	right: 50%;
+	left: auto;
+}
+
+.section-title.alt {
+	text-align: right;
+}
+
+.section-title.alt::after {
+	right: 0;
+	left: auto;
+}
+
+.section-title.alt::before {
+	right: 53px;
+	left: auto;
+}
+
+.olivo-preloader {
+	right: 20px;
+	left: 20px;
+}
+
+.olivo-preloader .olivo-folding-cube {
+	right: 50%;
+	left: auto;
+}
+
+.olivo-preloader .olivo-folding-cube .olivo-cube {
+	float: right;
+}
+
+.olivo-preloader .olivo-folding-cube .olivo-cube:before {
+	right: 0;
+	left: auto;
+}
+
+/* Read More Button
+-------------------------------------------------- */
+.read-more {
+	margin-left: 20px;
+	margin-right: auto;
+}
+
+.read-more::before {
+	left: -6%;
+	right: auto;
+}
+
+.read-more i {
+	left: 0;
+	right: auto;
+}
+
+/* Shadows
+-------------------------------------------------- */
+
+/* Custom button
+-------------------------------------------------- */
+
+/*
+Light Button
+---------------------------------------*/
+
+/* Make Space between sections											*/
+/*----------------------------------------------------------------------*/
+
+/* Decoration Lines                      */
+/*----------------------------------------------------------------------*/
+
+.glaciar_nav_active {
+	right: 0;
+	left: 0;
+}
+
+/* Hover effect for thumbnails											*/
+/*----------------------------------------------------------------------*/
+
+.ql_thumbnail_hover:before {
+	right: 5px;
+	left: 5px;
+}
+
+.ql_thumbnail_hover:after {
+	right: 50%;
+	left: auto;
+}
+
+/* Font size using REMs													*/
+/*----------------------------------------------------------------------*/
+
+/* Change Background Gradients for Demo Site							*/
+/*----------------------------------------------------------------------*/
+.olivo-demo-background {
+	right: 50px;
+	left: auto;
+}
+
+.olivo-sidenav-out .olivo-demo-background {
+	right: 20px;
+	left: auto;
+}
+
+.olivo-demo-background .olivo-demo-gradients {
+	right: 6px;
+	left: auto;
+}
+
+/* Inputs																*/
+/*----------------------------------------------------------------------*/
+
+/* Site Background
+	-------------------------------------------------- */
+
+.olivo-sidenav-out .olivo-site-wrap {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+/*
+	Header
+	==========================================
+	*/
+
+.logo_container {
+	margin-left: 0;
+	margin-right: auto;
+}
+
+.logo_container .site-title {
+	padding-left: 60px;
+	padding-right: 0;
+}
+
+#ql_nav_btn {
+	left: 60px;
+	right: auto;
+}
+
+.olivo-with-out-sidebar #ql_nav_btn {
+	left: 10px;
+	right: auto;
+}
+
+.olivo-sidenav-out #ql_nav_btn {
+	left: 0;
+	right: auto;
+}
+
+.olivo-sidenav #ql_nav_btn {
+	left: 40px;
+	right: auto;
+}
+
+#jqueryslidemenu {
+	text-align: right;
+}
+
+.dropdown-submenu > .dropdown-menu {
+	right: 0;
+	padding-right: 20px;
+	left: auto;
+	padding-left: 0;
+}
+
+/*1st sub level menu*/
+
+.ql_cart-btn {
+	text-align: right;
+}
+
+/*
+	Main
+	==========================================
+	*/
+
+/*
+	Portfolio
+	==========================================
+	*/
+
+/*
+	Portfolio Thirds
+	============================= */
+
+/*
+	Portfolio Instagram & Dribbble
+	============================= */
+
+/*
+	Filter
+	============================= */
+  .ql_filter {
+	margin-left: 0;
+	margin-right: auto;
+}
+
+/*
+==========================================
+17. Responsive Styles
+==========================================
+*/
+/*
+	// Extra Small Breakpoint
+	// ------------------
+	*/
+@media (max-width: 767px) {
+
+.glaciar_nav_active {
+	right: 0;
+	left: 0;
+}
+
+/* Hover effect for thumbnails											*/
+/*----------------------------------------------------------------------*/
+
+.ql_thumbnail_hover:before {
+	right: 5px;
+	left: 5px;
+}
+
+.ql_thumbnail_hover:after {
+	right: 50%;
+	left: auto;
+}
+
+/* Font size using REMs													*/
+/*----------------------------------------------------------------------*/
+
+/* Change Background Gradients for Demo Site							*/
+/*----------------------------------------------------------------------*/
+.olivo-demo-background {
+	right: 50px;
+	left: auto;
+}
+
+.olivo-sidenav-out .olivo-demo-background {
+	right: 20px;
+	left: auto;
+}
+
+.olivo-demo-background .olivo-demo-gradients {
+	right: 6px;
+	left: auto;
+}
+
+/* Inputs																*/
+/*----------------------------------------------------------------------*/
+
+/* Site Background
+	-------------------------------------------------- */
+
+.olivo-sidenav-out .olivo-site-wrap {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+/*
+	Header
+	==========================================
+	*/
+
+.logo_container {
+	margin-left: 0;
+	margin-right: auto;
+}
+
+.logo_container .site-title {
+	padding-left: 60px;
+	padding-right: 0;
+}
+
+#ql_nav_btn {
+	left: 60px;
+	right: auto;
+}
+
+.olivo-with-out-sidebar #ql_nav_btn {
+	left: 10px;
+	right: auto;
+}
+
+.olivo-sidenav-out #ql_nav_btn {
+	left: 0;
+	right: auto;
+}
+
+.olivo-sidenav #ql_nav_btn {
+	left: 40px;
+	right: auto;
+}
+
+#jqueryslidemenu {
+	text-align: right;
+}
+
+.dropdown-submenu > .dropdown-menu {
+	right: 0;
+	padding-right: 20px;
+	left: auto;
+	padding-left: 0;
+}
+
+/*1st sub level menu*/
+
+.ql_cart-btn {
+	text-align: right;
+}
+
+/*
+	Main
+	==========================================
+	*/
+
+/*
+	Portfolio
+	==========================================
+	*/
+
+/*
+	Portfolio Thirds
+	============================= */
+
+/*
+	Portfolio Instagram & Dribbble
+	============================= */
+
+/*
+	Filter
+	============================= */
+  .ql_filter {
+	margin-left: 0;
+	margin-right: auto;
+}
+
+}
+
+/*
+	Header
+	==========================================
+	*/
+
+.olivo-sidenav .ql_cart-btn,
+  .olivo-sidenav-out .ql_cart-btn {
+	left: 30px;
+	right: auto;
+}
+
+/*
+	Main
+	==========================================
+	*/
+
+/*
+	Portfolio
+	==========================================
+	*/
+
+/*
+	Portfolio Thirds
+	============================= */
+
+/*
+	Portfolio Instagram & Dribbble
+	============================= */
+
+/*
+	Content
+	==========================================
+	*/
+  .metadata ul li {
+	float: right;
+}
+
+/*
+	Sidebar
+	==========================================
+	*/
+
+#sidebar {
+	padding-right: 20px;
+	padding-left: 0;
+}
+
+/*
+	Single
+	============================= */
+  .single .post .entry-footer {
+	text-align: right;
+}
+
+.single .post .entry-footer .metadata ul li {
+	margin-left: 15px;
+	margin-right: auto;
+}
+
+/*
+	// Small Breakpoint
+	// ------------------
+	*/
+@media (min-width: 768px) and (max-width: 1269px) {
+
+/*
+	Portfolio
+	==========================================
+	*/
+
+/*
+	Portfolio Thirds
+	============================= */
+
+/*
+	Portfolio Instagram & Dribbble
+	============================= */
+
+/*
+	Content
+	==========================================
+	*/
+  .metadata ul li {
+	float: right;
+}
+
+/*
+	Sidebar
+	==========================================
+	*/
+
+#sidebar {
+	padding-right: 20px;
+	padding-left: 0;
+}
+
+/*
+	Single
+	============================= */
+  .single .post .entry-footer {
+	text-align: right;
+}
+
+.single .post .entry-footer .metadata ul li {
+	margin-left: 15px;
+	margin-right: auto;
+}
+
+}
+
+/*
+	Header
+	--------------------------------
+	*/
+
+/*
+	Content
+	========================================== 
+	*/
+
+/*
+	Sidebar
+	========================================== 
+	*/
+
+/*Comments Form---------------------------------------------------*/
+
+/*
+	// Medium Breakpoint
+	// ------------------
+	*/
+@media (min-width: 1270px) and (max-width: 1509px) {
+
+}
+
+/*
+	// Extra Larga Breakpoint
+	// ------------------
+	*/
+@media (min-width: 1510px) {
+
+/*
+	// Medium Breakpoint
+	// ------------------
+	*/
+@media (min-width: 1270px) and (max-width: 1509px) 
+}
+
+/*
+==========================================
+LESS Variables and Mixins
+==========================================
+*/
+
+caption {
+	text-align: right;
+}
+
+th {
+	text-align: right;
+}
+
+@media screen and (max-width: 767px) {
+
+caption {
+	text-align: right;
+}
+
+th {
+	text-align: right;
+}
+
+}
+
+
+/* Generated by the RTLer - http://wordpress.org/extend/plugins/rtler/ */

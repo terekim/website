@@ -1,0 +1,150 @@
+/*
+ Theme Name:   Minimalist Portfolio
+ Theme URI:    https://colormelon.com/minimalist-portfolio-theme-tutorial
+ Description:  Are you an artist or a creative who is looking for a clean, modern way to showcase your work to others? Then Minimalist Portfolio WordPress theme was created for you. Minimalist portfolio is a beautifully simple yet modern theme that pays special attention to typography and images. As an image based theme, it beautifully integrates with “Easy Photography Portfolio” plugin that lets you create a portfolio section for your website while sticking to the same Minimalist Portfolio visual design guidelines. Like all proper WordPress themes, Minimalist is fully responsive -  it looks and functions beautifully on any device and screen size. Go a step further and make Minimalist your own by choosing between dark or light background color, set your menu layout to open or hide it behind a hamburger icon and if you need help, follow our step-by-step setup tutorial here  -  https://colormelon.com/free-portfolio-website-tutorial
+ Author:       Colormelon
+ Author URI:   https://colormelon.com
+ Template:     hamilton
+ Version:      1.0.8
+ License:      GNU General Public License v3 or later
+ License URI:  http://www.gnu.org/licenses/gpl-3.0.html
+ Tags:		   photography, portfolio, blog, custom-background, editor-style, featured-images, threaded-comments
+ Text Domain:  minimalist-portfolio
+*/
+
+
+/* ========= "Easy Photography Portfolio" Overrides ========= */
+
+/**
+	Override:
+	Hamilton style container width
+ */
+.PP_Wrapper {
+	margin: 0 auto;
+	max-width: 1240px;
+	width: 90%;
+}
+
+/**
+	Override:
+	Masonry item width
+ */
+.PP_Masonry .PP_Masonry__item,
+.PP_Masonry .PP_Masonry__sizer {
+	width: 50%;
+}
+
+
+/* ========= Portfolio Styles ========= */
+
+.PP_Description {
+    width: 100%;
+}
+
+/**
+	Make "Easy Photography Portfolio" look more like Hamilton theme
+ */
+.PP_Entry__header {
+	font-weight: 300;
+	letter-spacing: -.025em;
+}
+
+.PP_Entry__title {
+	font-size: 40px;
+	margin-bottom: .75rem;
+}
+
+.PP_Card .PP_Entry__subtitle {
+	font-size: 1.45rem;
+}
+
+.PP_Card .PP_Entry__more {
+	padding: 2.5rem;
+	transition: all .3s ease-in-out;
+}
+
+.PP_Card .PP_Entry__header {
+	bottom: 2.5rem;
+	left: 2.5rem;
+}
+
+.PP_Card .PP_Entry__view {
+	font-size: 1.125rem;
+	text-transform: none;
+}
+
+.PP_Lazy_Image__placeholder {
+	background-color: #efefef;
+}
+
+.site-footer .site-footer__by {
+	font-size: .875rem;
+}
+
+.PP_Gallery__caption {
+	position: absolute;
+	bottom: 1rem;
+	left: 1rem;
+	background-color: white;
+	display: inline-block;
+	width: auto;
+    max-width: calc(100% - 2rem);
+	padding: 1rem;
+	line-height: 1.77;
+}
+
+/* ========= Hamilton Overrides ========= */
+
+/*
+	Fix Hamilton Bugs:
+ */
+.site-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.show-alt-nav .alt-nav {
+	margin-left: auto;
+}
+
+
+/**
+	Responsive styles
+ */
+
+@media screen and (max-width: 640px) {
+	.PP_Masonry .PP_Masonry__item,
+	.PP_Masonry .PP_Masonry__sizer {
+		margin: 0;
+		border-width: 10px;
+	}
+	
+	.PP_Card .PP_Entry__header {
+		bottom: 1rem;
+		left: 1rem;
+	}
+    .PP_Card .PP_Entry__more {
+        padding: 1rem;
+    }
+	
+	.PP_Card .PP_Entry__title {
+		font-size: 1.3rem;
+	}
+	
+	.PP_Card .PP_Entry__subtitle {
+		font-size: 1rem;
+	}
+    .PP_Gallery__caption {
+        position: static;
+    }
+}
+
+@media screen and (max-width: 460px) {
+	.PP_Masonry .PP_Masonry__item,
+	.PP_Masonry .PP_Masonry__sizer {
+		margin: 0 auto 1rem;
+		border-width: 0px;
+		width: 100%;
+	}
+}

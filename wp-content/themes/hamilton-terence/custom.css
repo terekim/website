@@ -1,0 +1,26 @@
+/*
+	Theme Name: Your Child Theme
+	Description: This is your custom style sheet
+        for your child themes custom CSS code.
+	Author: Your Name
+	Author URI: http://example.com/
+	Version: 2.0
+	Template: yourparenttheme
+	Template Version: 2.0
+
+*/
+
+
+/*
+Add Your Custom CSS Below This Line
+---------------------------------------------------------------- */
+
+.intro {
+  margin-bottom: 100px;
+  width: 70%;
+}
+
+.hello {
+  font-size: 30px;
+  line-height: 1.5;
+}
